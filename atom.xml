@@ -4,9 +4,9 @@
   <subtitle>Focus on IoT and AI</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://swizardlv.github.io/"/>
   <updated>2017-08-26T00:55:57.585Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://swizardlv.github.io/</id>
   
   <author>
     <name>Swizard Lv</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2017/08/26/hello-world/"/>
-    <id>http://yoursite.com/2017/08/26/hello-world/</id>
+    <link href="http://swizardlv.github.io/2017/08/26/hello-world/"/>
+    <id>http://swizardlv.github.io/2017/08/26/hello-world/</id>
     <published>2017-08-26T00:55:57.584Z</published>
     <updated>2017-08-26T00:55:57.585Z</updated>
     
