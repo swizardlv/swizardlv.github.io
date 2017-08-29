@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://swizardlv.github.io/"/>
-  <updated>2017-08-26T00:55:57.585Z</updated>
+  <updated>2017-08-29T09:19:34.495Z</updated>
   <id>http://swizardlv.github.io/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在ubuntu中如何在合上笔记本的时候系统不休眠</title>
+    <link href="http://swizardlv.github.io/2017/08/29/no-sleep-for-ubuntu-when-closing/"/>
+    <id>http://swizardlv.github.io/2017/08/29/no-sleep-for-ubuntu-when-closing/</id>
+    <published>2017-08-29T08:51:05.000Z</published>
+    <updated>2017-08-29T09:19:34.495Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="在ubuntu中如何在合上笔记本的时候系统不休眠"><a href="#在ubuntu中如何在合上笔记本的时候系统不休眠" class="headerlink" title="在ubuntu中如何在合上笔记本的时候系统不休眠"></a>在ubuntu中如何在合上笔记本的时候系统不休眠</h1><p>修改”/etc/systemd/logind.conf”中</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#HandleLidSwitch=suspend</div></pre></td></tr></table></figure>
+<p>为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">HandleLidSwitch=ignore</div></pre></td></tr></table></figure>
+<p>适用于15.04以上</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo service systemd-logind restart</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;在ubuntu中如何在合上笔记本的时候系统不休眠&quot;&gt;&lt;a href=&quot;#在ubuntu中如何在合上笔记本的时候系统不休眠&quot; class=&quot;headerlink&quot; title=&quot;在ubuntu中如何在合上笔记本的时候系统不休眠&quot;&gt;&lt;/a&gt;在ubuntu中如何在合上笔
+    
+    </summary>
+    
+    
+      <category term="ubuntu, tips" scheme="http://swizardlv.github.io/tags/ubuntu-tips/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

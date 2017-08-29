@@ -79,12 +79,10 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="IoT, AI" />
+  <meta name="keywords" content="ubuntu, tips," />
 
 
 
-
-  
 
 
   <link rel="alternate" href="/atom.xml" title="Swizard" type="application/atom+xml" />
@@ -99,12 +97,17 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Swizard">
-<meta property="og:url" content="http://swizardlv.github.io/archives/index.html">
+<meta name="description" content="在ubuntu中如何在合上笔记本的时候系统不休眠修改”/etc/systemd/logind.conf”中 1#HandleLidSwitch=suspend 为 1HandleLidSwitch=ignore 适用于15.04以上 1$ sudo service systemd-logind restart">
+<meta name="keywords" content="ubuntu, tips">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在ubuntu中如何在合上笔记本的时候系统不休眠">
+<meta property="og:url" content="http://swizardlv.github.io/2017/08/29/no-sleep-for-ubuntu-when-closing/index.html">
 <meta property="og:site_name" content="Swizard">
+<meta property="og:description" content="在ubuntu中如何在合上笔记本的时候系统不休眠修改”/etc/systemd/logind.conf”中 1#HandleLidSwitch=suspend 为 1HandleLidSwitch=ignore 适用于15.04以上 1$ sudo service systemd-logind restart">
+<meta property="og:updated_time" content="2017-08-29T09:19:34.495Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Swizard">
+<meta name="twitter:title" content="在ubuntu中如何在合上笔记本的时候系统不休眠">
+<meta name="twitter:description" content="在ubuntu中如何在合上笔记本的时候系统不休眠修改”/etc/systemd/logind.conf”中 1#HandleLidSwitch=suspend 为 1HandleLidSwitch=ignore 适用于15.04以上 1$ sudo service systemd-logind restart">
 
 
 
@@ -134,13 +137,13 @@
 
 
 
-  <link rel="canonical" href="http://swizardlv.github.io/archives/"/>
+  <link rel="canonical" href="http://swizardlv.github.io/2017/08/29/no-sleep-for-ubuntu-when-closing/"/>
 
 
 
 
 
-  <title>Archive | Swizard</title>
+  <title>在ubuntu中如何在合上笔记本的时候系统不休眠 | Swizard</title>
   
 
 
@@ -169,7 +172,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -263,111 +266,152 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
-
-      <span class="archive-page-counter">
-        
-        
-        
-          
-        
-        Um..! 2 posts in total. Keep on posting.
-      </span>
-
-      
-
-        
-        
-        
-
-        
-          
-          <div class="collection-title">
-            <h2 class="archive-year motion-element" id="archive-year-2017">2017</h2>
-          </div>
-        
-        
-
-        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://swizardlv.github.io/2017/08/29/no-sleep-for-ubuntu-when-closing/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Swizard Lv">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Swizard">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2017/08/29/no-sleep-for-ubuntu-when-closing/" itemprop="url">
-              
-                <span itemprop="name">在ubuntu中如何在合上笔记本的时候系统不休眠</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">在ubuntu中如何在合上笔记本的时候系统不休眠</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-08-29T16:51:05+08:00"
-              content="2017-08-29" >
-          08-29
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-08-29T16:51:05+08:00">
+                2017-08-29
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
 
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/08/26/hello-world/" itemprop="url">
-              
-                <span itemprop="name">Hello World</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-08-26T08:55:57+08:00"
-              content="2017-08-26" >
-          08-26
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
+      
+        <h1 id="在ubuntu中如何在合上笔记本的时候系统不休眠"><a href="#在ubuntu中如何在合上笔记本的时候系统不休眠" class="headerlink" title="在ubuntu中如何在合上笔记本的时候系统不休眠"></a>在ubuntu中如何在合上笔记本的时候系统不休眠</h1><p>修改”/etc/systemd/logind.conf”中</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#HandleLidSwitch=suspend</div></pre></td></tr></table></figure>
+<p>为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">HandleLidSwitch=ignore</div></pre></td></tr></table></figure>
+<p>适用于15.04以上</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo service systemd-logind restart</div></pre></td></tr></table></figure>
+
+      
     </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/ubuntu-tips/" rel="tag"># ubuntu, tips</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/08/26/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -375,6 +419,12 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="vcomments"></div>
+    
+  </div>
+
 
         </div>
         
@@ -395,8 +445,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.png"
@@ -471,6 +530,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#在ubuntu中如何在合上笔记本的时候系统不休眠"><span class="nav-number">1.</span> <span class="nav-text">在ubuntu中如何在合上笔记本的时候系统不休眠</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -597,11 +672,6 @@
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
 
 
   
