@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://swizardlv.github.io/"/>
-  <updated>2017-08-29T09:59:32.938Z</updated>
+  <updated>2017-08-30T00:51:56.740Z</updated>
   <id>http://swizardlv.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://swizardlv.github.io/2017/08/29/install-make-on-ubuntu/"/>
     <id>http://swizardlv.github.io/2017/08/29/install-make-on-ubuntu/</id>
     <published>2017-08-29T09:56:57.000Z</published>
-    <updated>2017-08-29T09:59:32.938Z</updated>
+    <updated>2017-08-30T00:51:56.740Z</updated>
     
     <content type="html"><![CDATA[<h1 id="在ubuntu中安装make"><a href="#在ubuntu中安装make" class="headerlink" title="在ubuntu中安装make"></a>在ubuntu中安装make</h1><p>在nodejs安装module的时候经常会遇到需要进行编译却找不到make的情况</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo  apt-get install build-essential</div></pre></td></tr></table></figure>
@@ -33,7 +33,9 @@
     </summary>
     
     
-      <category term="tips, ubuntu" scheme="http://swizardlv.github.io/tags/tips-ubuntu/"/>
+      <category term="tips" scheme="http://swizardlv.github.io/tags/tips/"/>
+    
+      <category term="ubuntu" scheme="http://swizardlv.github.io/tags/ubuntu/"/>
     
   </entry>
   
@@ -42,7 +44,7 @@
     <link href="http://swizardlv.github.io/2017/08/29/no-sleep-for-ubuntu-when-closing/"/>
     <id>http://swizardlv.github.io/2017/08/29/no-sleep-for-ubuntu-when-closing/</id>
     <published>2017-08-29T08:51:05.000Z</published>
-    <updated>2017-08-29T09:19:34.495Z</updated>
+    <updated>2017-08-30T00:52:11.660Z</updated>
     
     <content type="html"><![CDATA[<h1 id="在ubuntu中如何在合上笔记本的时候系统不休眠"><a href="#在ubuntu中如何在合上笔记本的时候系统不休眠" class="headerlink" title="在ubuntu中如何在合上笔记本的时候系统不休眠"></a>在ubuntu中如何在合上笔记本的时候系统不休眠</h1><p>修改”/etc/systemd/logind.conf”中</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#HandleLidSwitch=suspend</div></pre></td></tr></table></figure>
@@ -59,34 +61,9 @@
     </summary>
     
     
-      <category term="ubuntu, tips" scheme="http://swizardlv.github.io/tags/ubuntu-tips/"/>
+      <category term="tips" scheme="http://swizardlv.github.io/tags/tips/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://swizardlv.github.io/2017/08/26/hello-world/"/>
-    <id>http://swizardlv.github.io/2017/08/26/hello-world/</id>
-    <published>2017-08-26T00:55:57.584Z</published>
-    <updated>2017-08-26T00:55:57.585Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
+      <category term="ubuntu" scheme="http://swizardlv.github.io/tags/ubuntu/"/>
     
   </entry>
   
